@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+.left {
+    float: left;
+}
+.right {
+    float: right;
+}
+.clear {
+    clear: both;
+}
+
+#login-form {
+    background-color: #fefefe;
+    width: 35%;
+}
+#presentation-image {
+    width: 65%;
+    height: 900px;
+    background-color: black;
+    background: url(../images/fundo.png) center;
+}
+#container {
+    width: 80%;
+    margin: 50px auto;
+}
+#container h1 {
+    color: #2c1ae6;
+    font-size: 20px;
+}
+#container h2 {
+    margin: 40px 0;
+}
+#container legend {
+    font-size: 0.8em;
+}
+fieldset {
+    border: none;
+}
+input[type="text"], input[type="password"] {
+    padding: 10px 0 10px 0;
+    border: none;
+    border-bottom: 2px solid #2c1ae6;
+    width: 85%;
+    opacity: 0.6;
+    transition: 0.3s;
+}
+input[type="text"]:focus, input[type="password"]:focus {
+    opacity: 1;
+    width: 100%;
+    outline: none;
+}
+form a {
+    color: #2c1ae6;
+    margin-top: 10px;
+    font-size: 0.8em;
+    color: #606060;
+    text-decoration: none;
+}
+form a:hover, #creat-account:hover  {
+    color: #2c1ae6;
+}
+#login-button {
+    display: block;
+    text-align: center;
+    margin-top: 50px;
+    width: 100%;
+    border: none;
+    border-radius: 7px;
+    background-color: #2c1ae6;
+    color: #fff;
+    padding: 18px 0;
+    font-size: 1em;
+}
+#login-facebook {
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+    width: 100%;
+    border: 1px solid #2c1ae6;
+    border-radius: 7px;
+    color: #2c1ae6;
+    padding: 18px 0;
+    font-size: 1em;
+}
+a>div {
+    width: 200px;
+    margin: auto;
+}
+a>div>img {
+    width: 20px;
+    float: left;
+}
+a#creat-account {
+    color: #2c1ae6;
+    font-size: 0.8em;
+    color: #606060;
+    text-decoration: none;
+}
+label {
+    margin: 50px;
+}
+form {
+    margin-bottom: 40px;
+}
+#copy {
+    position: fixed;
+    bottom: 10px;
+    left: 3%;
+    font-size: 0.8em;
+    color: #606060;
+}
